@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "InfoFlow KV: Information-Flow-Aware KV Recomputation for Long Context"
+authors:
+  - family-names: Teng
+    given-names: Xin
+  - family-names: Zhang
+    given-names: Canyu
+  - family-names: Zheng
+    given-names: Shaoyi
+  - family-names: Zhuo
+    given-names: Danyang
+  - family-names: Zhou
+    given-names: Tianyi
+  - family-names: Wan
+    given-names: Shenji
+type: software
+license: MIT
+repository-code: "https://github.com/tx467/InfoFlow-KV"
+url: "https://infoflow-kv.github.io"
+keywords:
+  - large language models
+  - key-value cache
+  - long-context inference
+  - retrieval-augmented generation
+  - sequence parallelism
+  - vision-language models
+preferred-citation:
+  type: conference-paper
+  title: "InfoFlow KV: Information-Flow-Aware KV Recomputation for Long Context"
+  authors:
+    - family-names: Teng
+      given-names: Xin
+    - family-names: Zhang
+      given-names: Canyu
+    - family-names: Zheng
+      given-names: Shaoyi
+    - family-names: Zhuo
+      given-names: Danyang
+    - family-names: Zhou
+      given-names: Tianyi
+    - family-names: Wan
+      given-names: Shenji
+  year: 2026
+  conference:
+    name: "Forty-third International Conference on Machine Learning"
+  url: "https://openreview.net/forum?id=o8y6CoJsWA"
