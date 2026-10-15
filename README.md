@@ -1,6 +1,13 @@
-# [ICML 2026] InfoFlow KV: Information-Flow-Aware KV Recomputation for Long Context
+<h1 align="center">[ICML 2026] InfoFlow KV: Information-Flow-Aware KV Recomputation for Long Context</h1>
 
-[Paper](https://arxiv.org/abs/2603.05353) · [Project page](https://infoflow-kv.github.io)
+<p align="center">
+  <a href="https://arxiv.org/abs/2603.05353"><img src="https://img.shields.io/badge/arXiv-2603.05353-b31b1b?style=flat&amp;logo=arxiv&amp;logoColor=white" alt="arXiv: 2603.05353"></a>
+  <a href="https://infoflow-kv.github.io"><img src="https://img.shields.io/badge/🌐%20Website-infoflow--kv.github.io-1473e6?style=flat" alt="Website: infoflow-kv.github.io"></a>
+</p>
+
+<p align="center">
+  <img src="assets/main.png" width="100%" alt="InfoFlow KV overview: retrieve cached document chunks, select tokens by query-based attention norm, reorder chunks and restore global RoPE, then partially recompute the KV cache for inference.">
+</p>
 
 > [!IMPORTANT]
 > The sequence-parallel (SP) and Ring-Attention experiments are available on the [`ring` branch](https://github.com/tx467/InfoFlow-KV/tree/ring). Use that branch for `sp_guided_recompute`, `sp_cacheblend`, `sp_lego`, and `ring_attention`.
